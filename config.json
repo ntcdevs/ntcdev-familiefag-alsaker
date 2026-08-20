@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "FAMILIEFAG ALSAKER",
+    "city": "Nordfjordeid",
+    "category": "other",
+    "phone": "+4797570677",
+    "email": "peals@hotmail.no",
+    "address": "Sjøgata 12, 6770 Nordfjordeid"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Familiefag · Nordfjordeid",
+    "headline": "Familiefag",
+    "headlineAccent": "Alsaker",
+    "subheadline": "Vi hjelper familier og enkeltpersoner med profesjonell veiledning, rådgivning og støtte – trygt og tilgjengelig i hjertet av Nordfjordeid.",
+    "ctaText": "Ta Kontakt",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "15+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "500+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Engasjement"
+      },
+      {
+        "value": "5",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Kontakt oss for mer info",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Familierådgivning",
+        "desc": "Profesjonell veiledning og støtte for familier som ønsker å styrke samhold og kommunikasjon i hverdagen.",
+        "icon": "Heart",
+        "price": ""
+      },
+      {
+        "name": "Individuell Veiledning",
+        "desc": "Skreddersydd oppfølging tilpasset dine behov, med fokus på personlig utvikling og mestring.",
+        "icon": "Shield",
+        "price": ""
+      },
+      {
+        "name": "Kurs og Workshops",
+        "desc": "Praktiske kurs og samlinger som gir verdifull kunnskap og konkrete verktøy for en bedre hverdag.",
+        "icon": "Sparkles",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Din Lokale Partner i Nordfjordeid",
+    "body": "Familiefag Alsaker har i mange år vært en pålitelig ressurs for innbyggere i Nordfjordeid og omegn. Vi kombinerer faglig kompetanse med genuin omsorg for å levere tjenester som gjør en reell forskjell. Vår tilnærming er alltid personlig, respektfull og tilpasset hver enkelt situasjon.",
+    "stat1": {
+      "value": "15+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "500+",
+      "label": "Kunder hjulpet"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Dedikasjon"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Et innblikk i vår hverdag og de tjenestene vi tilbyr til våre kunder."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Ingrid Haugen",
+        "role": "Fast kunde siden 2019",
+        "text": "Familiefag Alsaker har vært til uvurderlig hjelp for hele familien vår. Profesjonelle, varme og alltid tilgjengelige når vi trenger dem.",
+        "rating": 5
+      },
+      {
+        "name": "Lars Erik Sunde",
+        "role": "Kunde siden 2021",
+        "text": "Fantastisk oppfølging og genuint engasjement. Jeg føler meg trygg og godt ivaretatt hver gang jeg tar kontakt.",
+        "rating": 5
+      },
+      {
+        "name": "Marte Bjørnstad",
+        "role": "Ny kunde",
+        "text": "Ble anbefalt Familiefag Alsaker av en kollega, og skjønner hvorfor. Grundig, kompetent og hyggelig service fra første stund.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Vi er her for å hjelpe – ta gjerne kontakt for en uforpliktende samtale om hvordan vi kan bistå deg."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
